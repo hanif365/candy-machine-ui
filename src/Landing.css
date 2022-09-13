@@ -1,0 +1,71 @@
+.videoImg {
+    max-width: 100%;
+    /* height: 100%; */
+}
+
+.upperBtnGroup {
+    position: absolute;
+    z-index: 9999;
+    margin: 50px 0 0 0;
+}
+
+.followButton {
+    cursor: pointer;
+    margin: 0 0 0 50px;
+}
+
+.checkStatusButton {
+    width: 140px;
+    cursor: pointer;
+    margin: 0 0 0 1000px;
+}
+
+.mintBtn {
+    position: absolute;
+    top: 70%;
+    left: 44%;
+    width: 180px;
+    cursor: pointer;
+    /* animation: MoveUpDown 1s linear infinite; */
+}
+
+.mint_btn_div {
+    animation: MoveUpDown 1500ms linear infinite;
+    position: absolute;
+    top: 0%;
+    left: 44%;
+    cursor: pointer;
+    z-index: 9999;
+}
+
+@keyframes MoveUpDown {
+    0%, 100% {
+        bottom: 0;
+    }
+
+    50% {
+        bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .followButton {
+        cursor: pointer;
+        margin: 0 0 0 30px;
+        width: 90px;
+
+    }
+    
+    .checkStatusButton {
+        width: 120px;
+        cursor: pointer;
+        margin: 0 0 0 100px;
+    }
+    .mintBtn {
+        position: absolute;
+        top: 20%;
+        left: 44%;
+        width: 100px;
+        /* animation: MoveUpDown 1s linear infinite; */
+    }
+}

@@ -1,0 +1,16 @@
+.navbar-mint{
+    background-color: black;
+}
+.navbar-brand{
+    color: #fff;
+    font-size: 45px !important;
+    font-weight: 900;
+    padding: 10px 0;
+    text-decoration: none;
+}
+.navbar-brand:hover{
+    color: #fff;
+}
+.nav-link{
+    color: #fff !important;
+}
