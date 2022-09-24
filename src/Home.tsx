@@ -52,6 +52,7 @@ const POOL = new PublicKey("CaahDoBEyGuuiXo7A9m68mtshizMZBXXcd1nb9N9Xcxm")
 const programId = new PublicKey("63qdQrAaCUbbgH6KHMpW5UGycDMwA1bBPR7dXhM2m9zA")
 const idl = require('./solana_anchor.json')
 const endpoint = 'devnet'
+// const endpoint = 'mainnet-beta'
 let nfts : any[] = []
 
 async function sendTransaction(connection : anchor.web3.Connection,transaction : anchor.web3.Transaction, signers : anchor.web3.Keypair[], wallet: any){
